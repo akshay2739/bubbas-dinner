@@ -4,7 +4,7 @@ import './Footer.css'
 class Footer extends Component {
 	render() {
 		return (
-			<div className='footer shadow-lg mt-5'>
+			<div className='footer  mt-5'>
 				<div className='map'>
 					<iframe
 						title='maps'

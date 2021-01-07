@@ -20,7 +20,7 @@
 	animation: glow 1s ease-in-out infinite alternate;
 }
 
-@keyframes glow {
+/* @keyframes glow {
 	from {
 		text-shadow: 0 0 10px #f8c611, 0 0 20px #f8c611, 0 0 30px #ff0606,
 			0 0 40px #ff0606, 0 0 50px #ff0606, 0 0 60px #ff0606, 0 0 70px #ff0606;
@@ -30,7 +30,7 @@
 		text-shadow: 0 0 20px #f8c611, 0 0 30px #ff0606, 0 0 40px #ff0606,
 			0 0 50px #ff0606, 0 0 60px #ff0606, 0 0 70px #ff0606, 0 0 80px #ff0606;
 	}
-}
+} */
 
 .welcome-text {
 	width: 50%;
@@ -45,9 +45,9 @@
 
 h4 {
 	font-weight: 300;
-	animation: blink 2s infinite;
+	/* animation: blink 2s infinite; */
 	font-size: 40px;
-	color: #ff0606;
+	color: #f8c611;
 	font-family: 'Yellowtail', cursive;
 	/* padding-left: 200px; */
 	white-space: nowrap;
@@ -58,7 +58,7 @@ h4 {
     animation: type2 4s steps(60, end);
   } */
 
-@keyframes blink {
+/* @keyframes blink {
 	to {
 		opacity: 0.3;
 	}
@@ -66,7 +66,7 @@ h4 {
 
 ::selection {
 	background: black;
-}
+} */
 
 @media only screen and (max-width: 768px) {
 	.welcome-text {
