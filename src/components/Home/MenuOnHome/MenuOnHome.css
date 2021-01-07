@@ -1,0 +1,28 @@
+.home-menu-wrapper {
+	width: 80%;
+	margin-left: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-type-wrapper {
+	width: 25%;
+	/* box-shadow: 2px 2px 2px 2px #f8c611; */
+	-moz-box-shadow: 0 0 3px 3px #f8c611;
+	-webkit-box-shadow: 0 0 3px 3px #f8c611;
+	box-shadow: 0 0 3px 3px #f8c611;
+}
+
+@media only screen and (max-width: 768px) {
+	.home-menu-wrapper {
+		width: 90%;
+		margin-left: 5%;
+		flex-direction: column;
+	}
+
+	.menu-type-wrapper {
+		width: 90%;
+		margin-left: 5%;
+		margin-bottom: 50px;
+	}
+}

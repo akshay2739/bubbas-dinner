@@ -1,0 +1,43 @@
+.about-page-wrapper {
+	padding-top: 90px;
+}
+
+.page-name p {
+	font-size: 40px;
+	font-weight: 600;
+	word-wrap: break-word;
+	text-align: justify;
+	color: #f8c611;
+}
+
+.about-wrapper {
+	width: 70%;
+	margin-left: 15%;
+	text-align: left;
+	word-wrap: break-word;
+	text-align: justify;
+	padding: 10px;
+}
+
+.about-wrapper h1 {
+	color: #ff0606;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.about-wrapper p {
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	.about-wrapper {
+		width: 100%;
+		margin: 0;
+		padding: 20px;
+		line-height: 2rem;
+	}
+
+	.col {
+		margin-top: 15px;
+	}
+}

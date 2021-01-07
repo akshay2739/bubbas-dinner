@@ -1,0 +1,132 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@keyframes appear {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes slideIn {
+	0% {
+		transform: translateX(-2%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes shrink {
+	0% {
+		width: 95%;
+	}
+	100% {
+		width: 90%;
+	}
+}
+
+.logo-nav-link {
+	color: black;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	box-shadow: 5px 10px 8px #ff0606;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.logo-name {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.logo-name p {
+	color: #ff0606;
+	font-family: 'Yellowtail', cursive;
+	font-size: larger;
+	font-weight: 700;
+	font-size: 30px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.nav-bar {
+	width: 30%;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	font-size: 20px;
+	transition: 0.5s;
+}
+
+.nav-link {
+	color: #f8c611;
+	padding: 10px;
+}
+
+.ham-button {
+	color: #ff0606;
+	font-size: 40px;
+}
+
+.menu-button {
+	color: azure;
+}
+
+@media only screen and (max-width: 768px) {
+	.header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 5px 0 5px;
+	}
+
+	.logo-name p {
+		font-size: 25px;
+	}
+
+	.nav-button {
+		display: contents;
+		font-size: 25px;
+		color: #ad0023;
+		margin-left: 40px;
+		cursor: pointer;
+	}
+
+	.logo {
+		justify-content: space-between;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		width: 100%;
+	}
+
+	.nav-bar a {
+		padding-top: 10px;
+	}
+	.nav-bar {
+		align-items: center;
+		justify-content: space-around;
+		display: none;
+		height: 68vh;
+		flex-direction: column;
+	}
+}
