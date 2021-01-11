@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useRouteMatch, Switch, Route, withRouter } from 'react-router-dom'
 import MenuHeader from './MenuHeader'
 import Breakfast from './types/Breakfast'
@@ -13,6 +13,10 @@ import All from './types/All'
 
 const Menu = () => {
 	let { path } = useRouteMatch()
+
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 
 	return (
 		<div className='menu-page-wrapper'>

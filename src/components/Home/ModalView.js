@@ -11,15 +11,15 @@ class ModalView extends Component {
 					size='lg'
 					aria-labelledby='contained-modal-title-vcenter'
 					centered
-					className='shadow-lg p-3 mb-5  bg-red rounded'
+					className='shadow-lg p-3 mb-5 rounded '
 				>
-					<Modal.Header closeButton className='bg-dark'>
+					<Modal.Header closeButton>
 						<Modal.Title id='example-custom-modal-styling-title'>
 							Alert Header
 						</Modal.Title>
 					</Modal.Header>
 
-					<Modal.Body className='bg-dark'>
+					<Modal.Body className='bg-white'>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
 							ipsam, laborum sunt debitis omnis dolorem explicabo aliquid eum
