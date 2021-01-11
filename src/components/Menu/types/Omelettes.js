@@ -39,7 +39,7 @@ export default class Omelettes extends Component {
 		return (
 			<div>
 				<div className='menu-name'>
-					<p>Omelettes (Takeout only)</p>
+					<p>Omelettes</p>
 				</div>
 				<h6 style={{ fontSize: 14, textAlign: 'center' }}>
 					<strong>Takeout only</strong>

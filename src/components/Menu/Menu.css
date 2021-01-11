@@ -30,6 +30,7 @@
 	text-align: center;
 	font-family: 'Krona One', sans-serif;
 	width: 100%;
+	color: black;
 }
 
 .menu-name p {
@@ -42,7 +43,7 @@
 }
 
 .menu-header {
-	background-color: #f8c611;
+	background-color: white;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -63,7 +64,7 @@
 
 .menu-header .selected-menu {
 	background: #ff0606;
-	color: #f8c611;
+	color: white;
 }
 
 .slide-enter {

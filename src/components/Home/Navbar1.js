@@ -21,7 +21,8 @@ export default class App extends React.Component {
 	render() {
 		const styles = {
 			container: {
-				position: 'absolute',
+				position: 'fixed',
+				top: 0,
 				height: '80px',
 				zIndex: '99',
 				display: 'flex',
@@ -121,10 +122,11 @@ class MenuItem extends React.Component {
 			menuItem: {
 				fontFamily: `'Open Sans', sans-serif`,
 				fontSize: '1.2rem',
+				fontWeight: 'bolder',
 				padding: '1rem 0',
 				margin: '0 5%',
 				cursor: 'pointer',
-				color: this.state.hover ? 'gray' : '#fafafa',
+				color: this.state.hover ? 'white' : '#fafafa',
 				transition: 'color 0.2s ease-in-out',
 				animation: '0.5s slideIn forwards',
 				animationDelay: this.props.delay,
@@ -132,7 +134,7 @@ class MenuItem extends React.Component {
 			line: {
 				width: '90%',
 				height: '1px',
-				background: 'gray',
+				background: 'white',
 				margin: '0 auto',
 				animation: '0.5s shrink forwards',
 				animationDelay: this.props.delay,

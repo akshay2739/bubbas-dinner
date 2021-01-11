@@ -5,12 +5,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	height: 100vh;
-	color: #f8c611;
+	color: #ff0606;
 	background-image: url('./assets/images/bg_pattern2.png');
 	background-repeat: repeat;
 	background-position: center;
-	/* background-color: #ad0023; */
-	/* background-size: cover; */
 }
 
 main {

@@ -7,7 +7,7 @@
 	font-weight: 600;
 	word-wrap: break-word;
 	text-align: justify;
-	color: #f8c611;
+	color: black;
 }
 
 .about-wrapper {
@@ -20,7 +20,7 @@
 }
 
 .about-wrapper h1 {
-	color: #f8c611;
+	color: #ff0606;
 	font-size: 50px;
 	font-weight: 600;
 }

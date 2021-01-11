@@ -13,11 +13,11 @@
 	font-weight: 800;
 	font-size: 70px;
 	font-family: 'Yellowtail', cursive;
-	color: #f8c611;
+	color: #ff0606;
 	text-align: center;
-	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	/* -webkit-animation: glow 1s ease-in-out infinite alternate;
 	-moz-animation: glow 1s ease-in-out infinite alternate;
-	animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate; */
 }
 
 /* @keyframes glow {
@@ -40,14 +40,14 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	text-shadow: 5px 5px 10px #e64040;
+	/* text-shadow: 5px 5px 10px #e64040; */
 }
 
 h4 {
 	font-weight: 300;
 	/* animation: blink 2s infinite; */
 	font-size: 40px;
-	color: #f8c611;
+	color: black;
 	font-family: 'Yellowtail', cursive;
 	/* padding-left: 200px; */
 	white-space: nowrap;

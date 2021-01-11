@@ -52,7 +52,7 @@ export default class Sandwiches extends Component {
 		return (
 			<div>
 				<div className='menu-name'>
-					<p>Sandwiches &amp; Wraps (Takeout only)</p>
+					<p>Sandwiches &amp; Wraps</p>
 				</div>
 				<h6 style={{ fontSize: 14, textAlign: 'center' }}>
 					<strong>Takeout only</strong>

@@ -34,7 +34,7 @@
 }
 
 .logo-nav-link {
-	color: black;
+	color: white;
 	font-weight: 900;
 	font-size: 20px;
 }
@@ -43,8 +43,8 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: black;
-	box-shadow: 5px 10px 8px #ff0606;
+	background-color: white;
+	box-shadow: 2px 5px 4px black;
 	padding-left: 10%;
 	padding-right: 10%;
 }
@@ -78,7 +78,7 @@
 }
 
 .nav-link {
-	color: #f8c611;
+	color: #ff0606;
 	padding: 10px;
 }
 
