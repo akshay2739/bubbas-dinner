@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ad3bc90.chunk.css",
-    "main.js": "/static/js/main.b6a47c47.chunk.js",
-    "main.js.map": "/static/js/main.b6a47c47.chunk.js.map",
+    "main.css": "/static/css/main.8e864202.chunk.css",
+    "main.js": "/static/js/main.80f70ec9.chunk.js",
+    "main.js.map": "/static/js/main.80f70ec9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0afa0ffb.js",
     "runtime-main.js.map": "/static/js/runtime-main.0afa0ffb.js.map",
     "static/js/2.d0b0350b.chunk.js": "/static/js/2.d0b0350b.chunk.js",
     "static/js/2.d0b0350b.chunk.js.map": "/static/js/2.d0b0350b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6ad3bc90.chunk.css.map": "/static/css/main.6ad3bc90.chunk.css.map",
+    "static/css/main.8e864202.chunk.css.map": "/static/css/main.8e864202.chunk.css.map",
     "static/js/2.d0b0350b.chunk.js.LICENSE.txt": "/static/js/2.d0b0350b.chunk.js.LICENSE.txt",
     "static/media/appetizer-daalroti-3.4862af2e.jpg": "/static/media/appetizer-daalroti-3.4862af2e.jpg",
     "static/media/chana-puri-daalroti-2.e569f0d7.jpg": "/static/media/chana-puri-daalroti-2.e569f0d7.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.0afa0ffb.js",
     "static/js/2.d0b0350b.chunk.js",
-    "static/css/main.6ad3bc90.chunk.css",
-    "static/js/main.b6a47c47.chunk.js"
+    "static/css/main.8e864202.chunk.css",
+    "static/js/main.80f70ec9.chunk.js"
   ]
 }

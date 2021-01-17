@@ -84,7 +84,7 @@ export default class App extends React.Component {
 				<div style={styles.container} className='header'>
 					<div style={styles.logo} className='logo-name'>
 						<NavLink to='/' className='nav-link'>
-							<p>Bubba's Dinner</p>
+							<p>Bubba's Diner</p>
 						</NavLink>
 					</div>
 					<MenuButton

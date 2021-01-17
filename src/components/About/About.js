@@ -13,7 +13,7 @@ export default class About extends Component {
 					<p>About</p>
 				</div>
 				<div className='about-wrapper'>
-					<h1>Bubba's Dinner</h1>
+					<h1>Bubba's Diner</h1>
 					<p>
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
 						nobis, numquam eligendi, libero enim consequuntur accusamus sapiente

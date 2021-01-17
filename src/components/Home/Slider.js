@@ -6,7 +6,7 @@ class Slider extends Component {
 		return (
 			<div className='background'>
 				<div className='welcome-text'>
-					<h1 class='glow'>Bubba's Dinner</h1>
+					<h1 class='glow'>Bubba's Diner</h1>
 					<h4>Food . Friends . Memories</h4>
 				</div>
 			</div>
