@@ -5,41 +5,44 @@ import '../Menu.css'
 export default class Salads extends Component {
 	salads = [
 		{
-			name: 'Garden Salad',
-			price: '$ 5.99',
-			desc: 'Description',
+			name: 'Garden Variety',
+			price: '7',
+			desc:
+				'Mixed greens, baby spinach with tomato, red onion and cucumber. Your choice of dressing',
 		},
 		{
-			name: 'Greek Salad',
-			price: '$ 6.99',
-			desc: 'Description',
+			name: 'All Hail Caesar',
+			price: '8',
+			desc:
+				'Crispromaine lettuce mixed with bacon, croutons and our creamy Caesar dressing',
 		},
 		{
-			name: 'Cesar Salad',
-			price: '$ 5.49',
-			desc: 'Description',
+			name: 'Greek-Style',
+			price: '8',
+			desc:
+				'Garden fresh tomatoes, red onion, mixed peppers, baby spinach and cucumber topped with kalamata olives, feta cheese and our house herb dressing',
 		},
 	]
 
 	drinks = [
 		{
 			name: 'Bottle Juice',
-			price: '$ 2.29',
+			price: '2.29',
 			desc: 'Apple, Orange, Lemonade & Fruit Punch',
 		},
 		{
 			name: 'Pop can',
-			price: '$ 1.49',
+			price: '1.49',
 			desc: 'Description',
 		},
 		{
 			name: 'Smoothies',
-			price: '$ 5.49',
+			price: '5.49',
 			desc: 'Mango & Pineapple or Strawberry & Banana',
 		},
 		{
 			name: 'Coffee / Tea',
-			price: '$ 1.79',
+			price: '1.79',
 			desc: 'Description',
 		},
 	]
@@ -57,6 +60,13 @@ export default class Salads extends Component {
 			<div>
 				<div className='menu-name'>
 					<p>Salads</p>
+					<h6 style={{ fontSize: 14, textAlign: 'center' }}>
+						Dinner sized salads include your choice of dressings- house herb,
+						blue cheese, ranch
+					</h6>
+					<h6 style={{ fontSize: 14, textAlign: 'center' }}>
+						Add chicken to any salad with 3
+					</h6>
 				</div>
 				<div className='menu-wrapper'>{Salads}</div>
 

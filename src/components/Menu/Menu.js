@@ -10,6 +10,7 @@ import Salads from './types/Salads'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import './Menu.css'
 import All from './types/All'
+import Addons from './types/Addons'
 
 const Menu = () => {
 	let { path } = useRouteMatch()
@@ -42,6 +43,7 @@ const AnimatedSwitch = withRouter(({ location, path }) => (
 				<Route exact path={path + '/omelettes'} component={Omelettes} />
 				<Route exact path={path + '/riceBowls'} component={RiceBowls} />
 				<Route exact path={path + '/poutine'} component={Poutine} />
+				<Route exact path={path + '/addons'} component={Addons} />
 			</Switch>
 		</CSSTransition>
 	</TransitionGroup>

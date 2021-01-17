@@ -5,44 +5,50 @@ import '../Menu.css'
 export default class Sandwiches extends Component {
 	FoodItems = [
 		{
-			name: 'Grilled Cheese',
-			price: '$ 4.99',
-			desc: 'Grilled Cheese',
+			name: 'BLT Wrap',
+			price: '2',
+			desc: 'Thick sliced bacon, crispy lettuce and sliced tomato',
 		},
 		{
-			name: 'BLT',
-			price: '$ 5.99',
-			desc: 'Bacon, Lettuce and Tomato',
+			name: 'Western Wrap',
+			price: '8',
+			desc: 'Two eggs, diced ham, sautéed onion & cheddar chees',
 		},
 		{
-			name: 'BLT-A ',
-			price: '$ 6.99',
-			desc: 'Bacon, Lettuce, Tomato & Avocado ',
+			name: 'The ABC',
+			price: '10',
+			desc:
+				'Sure to be a fan favourite.. liced apple, thick cut bacon and cheddar cheese grilled to a golden perfection. This is  how Bubba does a grilled cheesel',
 		},
 		{
-			name: 'Eastern',
-			price: '$ 6.99',
-			desc: 'Ham & Cheese',
+			name: 'Chicken Souvlaki',
+			price: '12',
+			desc:
+				'Bubba will have you saying OPA! With this one. Marinated chicken, feta cheese, diced tomatoes & onion and our creamy tzatziki sauce',
 		},
 		{
-			name: 'Western',
-			price: '$ 7.49',
-			desc: 'Ham, Onion & Cheese',
+			name: 'Shawarmna',
+			price: '12',
+			desc:
+				"Shredded chicken seasoned with inhouse spices. Served with fresh veggies and pickles. But don't forget our famous garlic saucel",
 		},
 		{
-			name: 'Denver',
-			price: '$ 7.99',
-			desc: 'Ham, Onion, Green Pepper & Cheese',
+			name: 'Basic Burger',
+			price: '10',
+			desc:
+				'We start with one of our fresh chuck, patties. and add lettuce, tomato, onions and pickle. Nothing fancy, but oh so good',
 		},
 		{
-			name: 'Veggie',
-			price: '$ 7.49',
-			desc: 'Tomatoes, Onions, Green Peppers, Mushrooms & Cheese',
+			name: 'Veggie Wrap',
+			price: '10',
+			desc:
+				'Grilled vegetables and our choice of sauce take this vaggie treat to the next level',
 		},
 		{
-			name: 'Deluxe',
-			price: '$ 8.49',
-			desc: 'Ham, Tomatoes, Onion, Green Peppers, Mushroom & Cheese',
+			name: 'Bubba Burger',
+			price: '14',
+			desc:
+				'Put on your comfy pants for this guy... two chuck patties, thick but bacon, sauteed mushrooms &aamp; cheddar cheese',
 		},
 	]
 	render() {
@@ -52,13 +58,16 @@ export default class Sandwiches extends Component {
 		return (
 			<div>
 				<div className='menu-name'>
-					<p>Sandwiches &amp; Wraps</p>
+					<p>Sandwiches Burgers &amp; Wraps</p>
 				</div>
 				<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-					<strong>Takeout only</strong>
+					<strong>
+						Served all day long! Come with your choice of home fries or French
+						fries or side garden salad.
+					</strong>
 				</h6>
 				<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-					(With Coffee, Tea, Toast &amp; Homefries)
+					Substitute Caesar or Greek salad for 1
 				</h6>
 				<div className='menu-wrapper'>{foodItems}</div>
 			</div>

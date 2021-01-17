@@ -45,18 +45,17 @@
 .menu-header {
 	background-color: white;
 	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
+	justify-content: space-around;
 	margin-top: 10px;
 	border-radius: 30px;
-	width: 42%;
+	width: 50%;
 	flex-wrap: wrap;
 }
 
 .menu-header .nav-link {
 	color: black;
 	border-radius: 28px;
-	width: auto;
+	width: 33%;
 	font-size: 18px;
 	text-align: center;
 	font-weight: 600;
@@ -90,6 +89,7 @@
 		width: 80%;
 		display: flex;
 		justify-content: space-between;
+		flex-direction: column;
 		align-items: center;
 		border-radius: 21px;
 		margin-top: 0;
@@ -98,6 +98,7 @@
 	.menu-header .nav-link {
 		color: black;
 		border-radius: 30px;
+		width: 100%;
 		font-size: 14px;
 		font-weight: 500;
 	}

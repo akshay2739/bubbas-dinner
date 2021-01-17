@@ -5,19 +5,33 @@ import '../Menu.css'
 export default class Breakfast extends Component {
 	FoodItems = [
 		{
-			name: 'Quick Breakfast',
-			price: '$ 2.99',
-			desc: 'Bagel, 2 toasts, muffin or croissant',
-		},
-		{
 			name: 'Full Breakfast',
-			price: '$ 6.99',
-			desc: '2 eggs, toast, homefries',
+			price: '7',
+			desc: 'Two eggs done any way you like, home fries and toast',
 		},
 		{
-			name: 'Sweet Breakfast ',
-			price: '$ 7.49',
-			desc: 'Pancake or French toast, homefries',
+			name: 'The Bubba',
+			price: '14',
+			desc:
+				'Three strips of bacon, two sausages, and a slice of ham. Two pancakes, two eggs, home fries and toast.',
+		},
+		{
+			name: 'Carnivore',
+			price: '9',
+			desc:
+				'Your choice of bacon, ham or sausage. Two eggs, home fries and toast',
+		},
+		{
+			name: 'Smoothies',
+			price: '5.5',
+			desc:
+				'On the run? Try one of our fresh smoothies. Your choice of Mango/Pineapple or Strawberry/Banana',
+		},
+		{
+			name: 'Cakes or Toast- Pancake wrap',
+			price: '8',
+			desc:
+				'Your choice of a three-stack of fluffy pancakes or our delicious French toast. Served with a side of homefrie',
 		},
 	]
 
@@ -30,11 +44,11 @@ export default class Breakfast extends Component {
 				<div className='menu-name'>
 					<p>Breakfast</p>
 					<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-						<strong>Takeout</strong> (With Coffee/tea)
+						Breakfast served daily from 8 AM until 11 AM
 					</h6>
-					<h6 style={{ fontSize: 14, textAlign: 'center' }}>
+					{/* <h6 style={{ fontSize: 14, textAlign: 'center' }}>
 						Add Bacon or Ham or Sausage for $1.99
-					</h6>
+					</h6> */}
 				</div>
 				<div className='menu-wrapper'>{foodItems}</div>
 			</div>

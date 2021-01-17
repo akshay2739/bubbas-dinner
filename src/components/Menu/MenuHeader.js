@@ -6,7 +6,7 @@ import { NavLink, useRouteMatch } from 'react-router-dom'
 const MenuHeader = () => {
 	let { url } = useRouteMatch()
 	return (
-		<div className=' mx-auto menu-header'>
+		<div className=' mx-auto menu-header shadow'>
 			<NavLink
 				exact
 				to={url + ''}
@@ -49,12 +49,6 @@ const MenuHeader = () => {
 			</NavLink>
 			<NavLink
 				exact
-				to={url + '/lunchcombos'}
-				activeClassName='selected-menu'
-				className='nav-link'
-			></NavLink>
-			<NavLink
-				exact
 				to={url + '/poutine'}
 				className='nav-link'
 				activeClassName='selected-menu'
@@ -68,6 +62,14 @@ const MenuHeader = () => {
 				activeClassName='selected-menu'
 			>
 				Salads &amp; Drinks
+			</NavLink>
+			<NavLink
+				exact
+				to={url + '/addons'}
+				className='nav-link'
+				activeClassName='selected-menu'
+			>
+				Add-ons
 			</NavLink>
 		</div>
 	)

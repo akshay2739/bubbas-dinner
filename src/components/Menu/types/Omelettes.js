@@ -5,29 +5,48 @@ import '../Menu.css'
 export default class Omelettes extends Component {
 	FoodItems = [
 		{
-			name: 'Deluxe ',
-			price: '$ 11.99',
-			desc: 'Ham, Tomatoes, Onion, Green Peppers, Mushroom & Cheese',
+			name: 'Tomato',
+			price: '1',
 		},
 		{
-			name: 'Denver  ',
-			price: '$ 10.99',
-			desc: 'Ham, Onion, Green Pepper & Cheese',
+			name: 'Onion',
+			price: '1',
 		},
 		{
-			name: 'Eastern ',
-			price: '$ 9.99',
-			desc: 'Ham & Cheese',
+			name: 'Green pepper',
+			price: '1',
 		},
 		{
-			name: 'Western  ',
-			price: '$ 9.99',
-			desc: 'Ham, Onion & Cheese',
+			name: 'Mushroom',
+			price: '1',
 		},
 		{
-			name: 'Veggie',
-			price: '$ 10.99',
-			desc: 'Tomatoes, Onion, Green Peppers, Mushroom & Cheese',
+			name: 'Kalamata olive',
+			price: '1',
+		},
+		{
+			name: 'Baby spinach',
+			price: '1',
+		},
+		{
+			name: 'Diced ham',
+			price: '2',
+		},
+		{
+			name: 'Diced bacon',
+			price: '2',
+		},
+		{
+			name: 'Diced sausage',
+			price: '2',
+		},
+		{
+			name: 'Extra cheese',
+			price: '2',
+		},
+		{
+			name: 'Feta cheese',
+			price: '2',
 		},
 	]
 
@@ -42,10 +61,11 @@ export default class Omelettes extends Component {
 					<p>Omelettes</p>
 				</div>
 				<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-					<strong>Takeout only</strong>
+					We start with three large Canadian Eges, add a pile of shredded
+					cheddar cheese Served with home fries and toast at 8.5
 				</h6>
 				<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-					(With Coffee, Tea, Toast &amp; Homefries)
+					<strong>Add-ons</strong>
 				</h6>
 				<div className='menu-wrapper'>{foodItems}</div>
 			</div>
