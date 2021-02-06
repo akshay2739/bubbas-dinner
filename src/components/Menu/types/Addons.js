@@ -37,7 +37,7 @@ export default class Addons extends Component {
 		return (
 			<div>
 				<div className='menu-name'>
-					<p>Addons</p>
+					<p>ADD-ONS</p>
 				</div>
 				<div className='menu-wrapper'>{foodItems}</div>
 			</div>
