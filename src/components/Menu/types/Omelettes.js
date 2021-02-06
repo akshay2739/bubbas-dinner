@@ -29,6 +29,14 @@ export default class Omelettes extends Component {
 			price: '1',
 		},
 		{
+			name: 'Extra cheese',
+			price: '2',
+		},
+		{
+			name: 'Feta cheese',
+			price: '2',
+		},
+		{
 			name: 'Diced ham',
 			price: '2',
 		},
@@ -38,14 +46,6 @@ export default class Omelettes extends Component {
 		},
 		{
 			name: 'Diced sausage',
-			price: '2',
-		},
-		{
-			name: 'Extra cheese',
-			price: '2',
-		},
-		{
-			name: 'Feta cheese',
 			price: '2',
 		},
 	]
@@ -61,8 +61,8 @@ export default class Omelettes extends Component {
 					<p>Omelettes</p>
 				</div>
 				<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-					We start with three large Canadian Eges, add a pile of shredded
-					cheddar cheese Served with home fries and toast at 8.5
+					We start with three large Canadian Eggs, add a pile of shredded
+					cheddar cheese served with home fries and toast at 8.5
 				</h6>
 				<h6 style={{ fontSize: 14, textAlign: 'center' }}>
 					<strong>Add-ons</strong>

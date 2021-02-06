@@ -10,7 +10,7 @@ export default class Sandwiches extends Component {
 			desc: 'Thick sliced bacon, crispy lettuce and sliced tomato',
 		},
 		{
-			name: 'Western Wrap',
+			name: 'Western Sandwich/Wrap',
 			price: '8',
 			desc: 'Two eggs, diced ham, sautéed onion & cheddar chees',
 		},
@@ -18,7 +18,7 @@ export default class Sandwiches extends Component {
 			name: 'The ABC',
 			price: '10',
 			desc:
-				'Sure to be a fan favourite.. liced apple, thick cut bacon and cheddar cheese grilled to a golden perfection. This is  how Bubba does a grilled cheesel',
+				'Sure to be a fan favourite.. sliced apple, thick cut bacon and cheddar cheese grilled to a golden perfection. This is  how Bubba does a grilled cheese!',
 		},
 		{
 			name: 'Chicken Souvlaki',
@@ -36,19 +36,19 @@ export default class Sandwiches extends Component {
 			name: 'Basic Burger',
 			price: '10',
 			desc:
-				'We start with one of our fresh chuck, patties. and add lettuce, tomato, onions and pickle. Nothing fancy, but oh so good',
+				'We start with one of our fresh chuck patties. and add lettuce, tomato, onion and pickle. Nothing fancy, but oh so good',
 		},
 		{
 			name: 'Veggie Wrap',
 			price: '10',
 			desc:
-				'Grilled vegetables and our choice of sauce take this vaggie treat to the next level',
+				'Grilled vegetables and your choice of sauce take this vaggie treat to the next level',
 		},
 		{
 			name: 'Bubba Burger',
 			price: '14',
 			desc:
-				'Put on your comfy pants for this guy... two chuck patties, thick but bacon, sauteed mushrooms &aamp; cheddar cheese',
+				'Put on your comfy pants for this guy... two chuck patties, thick cut bacon, sauteed mushrooms &amp; cheddar cheese',
 		},
 	]
 	render() {

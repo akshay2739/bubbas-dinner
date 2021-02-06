@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Card from './Card'
 import './Gallary.css'
 import image from '../../assets/images/img-02.jpg'
+import { Container } from 'react-bootstrap'
 
 export default class OurSpecialities extends Component {
 	FoodImages = [
@@ -59,9 +60,9 @@ export default class OurSpecialities extends Component {
 		})
 
 		return (
-			<div>
+			<Container>
 				<div className='cards'>{foodImages}</div>
-			</div>
+			</Container>
 		)
 	}
 }

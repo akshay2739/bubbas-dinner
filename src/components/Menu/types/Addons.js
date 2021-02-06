@@ -13,7 +13,7 @@ export default class Addons extends Component {
 			price: '2.5',
 		},
 		{
-			name: 'Ege',
+			name: 'Egg',
 			price: '1.5',
 		},
 		{
@@ -25,7 +25,7 @@ export default class Addons extends Component {
 			price: '3',
 		},
 		{
-			name: 'Side fries',
+			name: 'French fries',
 			price: '3',
 		},
 	]

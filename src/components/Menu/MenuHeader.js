@@ -69,7 +69,7 @@ const MenuHeader = () => {
 				className='nav-link'
 				activeClassName='selected-menu'
 			>
-				Add-ons
+				ADD-ONS
 			</NavLink>
 		</div>
 	)

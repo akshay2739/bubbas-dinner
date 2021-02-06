@@ -13,7 +13,7 @@ export default class Breakfast extends Component {
 			name: 'The Bubba',
 			price: '14',
 			desc:
-				'Three strips of bacon, two sausages, and a slice of ham. Two pancakes, two eggs, home fries and toast.',
+				'Three strips of bacon, two sausages, and a slice of ham. Two pancakes, two eggs, home fries and toast. Add substitute peameal for 1 protein 2',
 		},
 		{
 			name: 'Carnivore',
@@ -25,13 +25,13 @@ export default class Breakfast extends Component {
 			name: 'Smoothies',
 			price: '5.5',
 			desc:
-				'On the run? Try one of our fresh smoothies. Your choice of Mango/Pineapple or Strawberry/Banana',
+				'On the run? Try one of our fresh smoothies. Your choice of Mango/Pineapple or Strawberry/Banana. Add protein 1',
 		},
 		{
-			name: 'Cakes or Toast- Pancake wrap',
+			name: 'Cakes or Toast',
 			price: '8',
 			desc:
-				'Your choice of a three-stack of fluffy pancakes or our delicious French toast. Served with a side of homefrie',
+				'Your choice of a three-stack of fluffy pancakes or our delicious French toast. Served with a side of homefries',
 		},
 	]
 

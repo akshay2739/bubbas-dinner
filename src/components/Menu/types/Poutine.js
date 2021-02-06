@@ -8,13 +8,13 @@ export default class Poutine extends Component {
 			name: 'Classic ',
 			price: '8',
 			desc:
-				'A Canadian favourite -golden fries smothered in cheese Curds and gravy',
+				'A Canadian favourite golden fries smothered in cheese Curds and gravy',
 		},
 		{
 			name: 'Shawarma',
 			price: '11',
 			desc:
-				'Our golden fries topped with cheese, seasoned shredded chicken and our inhouse Shawarma sauce that will make you go hmmm',
+				'Our golden fries topped with cheese, seasoned shredded chicken and our inhouse Shawarma sauce that will make you go mmm',
 		},
 		{
 			name: 'Butter Chicken',
@@ -26,7 +26,7 @@ export default class Poutine extends Component {
 			name: 'Greek',
 			price: '9',
 			desc:
-				'Our golden fries topped with creamy tzatziki, diced tomatoes, cucumber & onion and finished off with feta cheese',
+				'Our golden fries topped with creamy tzatziki,sauce diced tomatoes, cucumber & onion and finished off with feta cheese',
 		},
 	]
 
@@ -44,9 +44,10 @@ export default class Poutine extends Component {
 			price: '30',
 		},
 		{
-			name: 'Butter Chicken Wings',
+			name: '8 Butter Chicken Wings',
 			price: '15',
-			desc: 'Chicken wings served in creamy butter gravy',
+			desc:
+				'Chicken wings sauteed in creamy butter chicken gravy (Additional 8 for 10)',
 		},
 	]
 
@@ -72,15 +73,10 @@ export default class Poutine extends Component {
 				<div className='menu-name'>
 					<p>Bubba's Famous Jumbo Wings</p>
 					<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-						Your choice of mild, medium, hot, honey garlic, BBQ, Butter Chicken
-						or Maple Vindaloo (sweet &amp; HOT)
+						Your choice of mild, medium, hot, honey garlic, or BBQ
 					</h6>
 					<h6 style={{ fontSize: 14, textAlign: 'center' }}>
 						Add a side of fries 3
-					</h6>
-					<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-						Add carrot &amp; celery stick with either blue cheese or ranch
-						dressing 3
 					</h6>
 				</div>
 				<div className='menu-wrapper'>{ChikenWings}</div>
