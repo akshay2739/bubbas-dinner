@@ -32,7 +32,6 @@ export default class Salads extends Component {
 		{
 			name: 'Pop can',
 			price: '1.5',
-			desc: 'Description',
 		},
 		{
 			name: 'Smoothies',
@@ -42,7 +41,6 @@ export default class Salads extends Component {
 		{
 			name: 'Coffee / Tea',
 			price: '1.8',
-			desc: 'Description',
 		},
 	]
 

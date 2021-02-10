@@ -13,7 +13,7 @@ export default class Breakfast extends Component {
 			name: 'The Bubba',
 			price: '14',
 			desc:
-				'Three strips of bacon, two sausages, and a slice of ham. Two pancakes, two eggs, home fries and toast. Add substitute peameal for 1 protein 2',
+				'Three strips of bacon, two sausages, and a slice of ham. Two pancakes, two eggs, home fries and toast. Substitute peameal for One protein 2',
 		},
 		{
 			name: 'Carnivore',

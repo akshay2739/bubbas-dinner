@@ -8,13 +8,13 @@ export default class Poutine extends Component {
 			name: 'Classic ',
 			price: '8',
 			desc:
-				'A Canadian favourite golden fries smothered in cheese Curds and gravy',
+				'A Canadian favorite golden fries smothered in Cheese Curds and gravy',
 		},
 		{
 			name: 'Shawarma',
 			price: '11',
 			desc:
-				'Our golden fries topped with cheese, seasoned shredded chicken and our inhouse Shawarma sauce that will make you go mmm',
+				'Our golden fries topped with cheese, seasoned shredded chicken and our inhouse Shawarma sauce that will make you go mmm…',
 		},
 		{
 			name: 'Butter Chicken',
@@ -26,7 +26,7 @@ export default class Poutine extends Component {
 			name: 'Greek',
 			price: '9',
 			desc:
-				'Our golden fries topped with creamy tzatziki,sauce diced tomatoes, cucumber & onion and finished off with feta cheese',
+				'Our golden fries topped with creamy tzatziki sauce, diced tomatoes, cucumber & onion and finished off with feta cheese',
 		},
 	]
 
@@ -47,7 +47,7 @@ export default class Poutine extends Component {
 			name: '8 Butter Chicken Wings',
 			price: '15',
 			desc:
-				'Chicken wings sauteed in creamy butter chicken gravy (Additional 8 for 10)',
+				'Chicken wings sautéed in creamy butter chicken gravy (Additional 8 Wings for 10)',
 		},
 	]
 

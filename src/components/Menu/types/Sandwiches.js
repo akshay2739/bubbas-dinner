@@ -12,13 +12,13 @@ export default class Sandwiches extends Component {
 		{
 			name: 'Western Sandwich/Wrap',
 			price: '8',
-			desc: 'Two eggs, diced ham, sautéed onion & cheddar chees',
+			desc: 'Two eggs, diced ham, sautéed onion & cheddar cheese',
 		},
 		{
 			name: 'The ABC',
 			price: '10',
 			desc:
-				'Sure to be a fan favourite.. sliced apple, thick cut bacon and cheddar cheese grilled to a golden perfection. This is  how Bubba does a grilled cheese!',
+				'Sure to be a fan favourite… sliced apple, thick cut bacon and cheddar cheese grilled to a golden perfection. This is how Bubba does a grilled cheese!',
 		},
 		{
 			name: 'Chicken Souvlaki',
@@ -27,28 +27,28 @@ export default class Sandwiches extends Component {
 				'Bubba will have you saying OPA! With this one. Marinated chicken, feta cheese, diced tomatoes & onion and our creamy tzatziki sauce',
 		},
 		{
-			name: 'Shawarmna',
+			name: 'Shawarma',
 			price: '12',
 			desc:
-				"Shredded chicken seasoned with inhouse spices. Served with fresh veggies and pickles. But don't forget our famous garlic saucel",
+				"Shredded chicken seasoned with inhouse spices. Served with fresh veggies and pickles. But don't forget our famous garlic sauce!",
 		},
 		{
 			name: 'Basic Burger',
 			price: '10',
 			desc:
-				'We start with one of our fresh chuck patties. and add lettuce, tomato, onion and pickle. Nothing fancy, but oh so good',
+				'We start with one of our fresh chuck patties and add lettuce, tomato, onion and pickle. Nothing fancy, but oh so good!',
 		},
 		{
 			name: 'Veggie Wrap',
 			price: '10',
 			desc:
-				'Grilled vegetables and your choice of sauce take this vaggie treat to the next level',
+				'Grilled vegetables and your choice of sauce take this veggie treat to the next level',
 		},
 		{
 			name: 'Bubba Burger',
 			price: '14',
 			desc:
-				'Put on your comfy pants for this guy... two chuck patties, thick cut bacon, sauteed mushrooms &amp; cheddar cheese',
+				'Put on your comfy pants for this guy... two chuck patties, thick cut bacon, sautéed mushrooms & cheddar cheese',
 		},
 	]
 	render() {

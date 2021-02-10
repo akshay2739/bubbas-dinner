@@ -21,11 +21,11 @@ export default class Addons extends Component {
 			price: '4',
 		},
 		{
-			name: 'Home fries',
+			name: 'Home Fries',
 			price: '3',
 		},
 		{
-			name: 'French fries',
+			name: 'French Fries',
 			price: '3',
 		},
 	]
