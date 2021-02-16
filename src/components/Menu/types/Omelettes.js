@@ -25,27 +25,27 @@ export default class Omelettes extends Component {
 			price: '1',
 		},
 		{
-			name: 'Baby spinach',
-			price: '1',
+			name: 'Diced ham',
+			price: '2',
 		},
 		{
 			name: 'Extra cheese',
 			price: '2',
 		},
 		{
-			name: 'Feta cheese',
+			name: 'Diced sausage',
 			price: '2',
 		},
 		{
-			name: 'Diced ham',
-			price: '2',
+			name: 'Baby spinach',
+			price: '1',
 		},
 		{
 			name: 'Diced bacon',
 			price: '2',
 		},
 		{
-			name: 'Diced sausage',
+			name: 'Feta cheese',
 			price: '2',
 		},
 	]
