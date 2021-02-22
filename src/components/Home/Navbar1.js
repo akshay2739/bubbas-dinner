@@ -34,31 +34,18 @@ export default class App extends React.Component {
 			logo: {
 				margin: '0 auto',
 			},
-			body: {
-				display: 'flex',
-				flexDirection: 'column',
-				alignItems: 'center',
-				width: '100vw',
-				height: '100vh',
-				filter: this.state.menuOpen ? 'blur(2px)' : null,
-				transition: 'filter 0.5s ease',
-			},
 		}
 		const menu = [
 			<NavLink to='/' className='nav-link'>
-				{' '}
 				Home
 			</NavLink>,
 			<NavLink to='/about' className='nav-link'>
-				{' '}
 				About
 			</NavLink>,
 			<NavLink to='/menu' className='nav-link'>
-				{' '}
 				Menu
 			</NavLink>,
 			<NavLink to='/gallary' className='nav-link'>
-				{' '}
 				Gallery
 			</NavLink>,
 			// <NavLink to='/contact' className='nav-link'>
@@ -178,11 +165,11 @@ class Menu extends React.Component {
 	render() {
 		const styles = {
 			container: {
-				position: 'absolute',
+				position: 'fixed',
 				top: 35,
 				left: 0,
 				height: this.state.open ? '100%' : 0,
-				width: '100vw',
+				width: '100%',
 				display: 'flex',
 				flexDirection: 'column',
 				background: 'black',

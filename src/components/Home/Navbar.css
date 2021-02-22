@@ -87,8 +87,8 @@
 	font-size: 40px;
 }
 
-.menu-button {
-	color: azure;
+.nav-link:hover {
+	color: white;
 }
 
 @media only screen and (max-width: 768px) {
