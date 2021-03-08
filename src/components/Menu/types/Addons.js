@@ -5,28 +5,36 @@ import '../Menu.css'
 export default class Addons extends Component {
 	FoodItems = [
 		{
-			name: 'Bacon, Ham or Sausage',
+			name: 'Bacon',
 			price: '3',
 		},
 		{
-			name: 'Toast, muffin or croissant',
+			name: 'Toast',
 			price: '2.5',
 		},
 		{
-			name: 'Egg',
-			price: '1.5',
+			name: 'French Fries',
+			price: '3',
 		},
 		{
-			name: 'Peameal',
-			price: '4',
+			name: 'Sausage',
+			price: '3',
+		},
+		{
+			name: 'Muffin',
+			price: '2.5',
 		},
 		{
 			name: 'Home Fries',
 			price: '3',
 		},
 		{
-			name: 'French Fries',
-			price: '3',
+			name: 'Peameal',
+			price: '4',
+		},
+		{
+			name: 'Egg',
+			price: '1.5',
 		},
 	]
 
@@ -37,7 +45,7 @@ export default class Addons extends Component {
 		return (
 			<div>
 				<div className='menu-name'>
-					<p>ADD-ONS</p>
+					<p>Add-ons and Extras</p>
 				</div>
 				<div className='menu-wrapper'>{foodItems}</div>
 			</div>

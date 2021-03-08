@@ -13,7 +13,7 @@
 	font-weight: 800;
 	font-size: 70px;
 	font-family: 'Yellowtail', cursive;
-	color: #ff0606;
+	color: #b00e13;
 	text-align: center;
 	/* -webkit-animation: glow 1s ease-in-out infinite alternate;
 	-moz-animation: glow 1s ease-in-out infinite alternate;
@@ -22,13 +22,13 @@
 
 /* @keyframes glow {
 	from {
-		text-shadow: 0 0 10px #f8c611, 0 0 20px #f8c611, 0 0 30px #ff0606,
-			0 0 40px #ff0606, 0 0 50px #ff0606, 0 0 60px #ff0606, 0 0 70px #ff0606;
+		text-shadow: 0 0 10px #f8c611, 0 0 20px #f8c611, 0 0 30px #b00e13,
+			0 0 40px #b00e13, 0 0 50px #b00e13, 0 0 60px #b00e13, 0 0 70px #b00e13;
 	}
 
 	to {
-		text-shadow: 0 0 20px #f8c611, 0 0 30px #ff0606, 0 0 40px #ff0606,
-			0 0 50px #ff0606, 0 0 60px #ff0606, 0 0 70px #ff0606, 0 0 80px #ff0606;
+		text-shadow: 0 0 20px #f8c611, 0 0 30px #b00e13, 0 0 40px #b00e13,
+			0 0 50px #b00e13, 0 0 60px #b00e13, 0 0 70px #b00e13, 0 0 80px #b00e13;
 	}
 } */
 

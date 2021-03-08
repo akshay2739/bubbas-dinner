@@ -5,48 +5,16 @@ import '../Menu.css'
 export default class Omelettes extends Component {
 	FoodItems = [
 		{
-			name: 'Tomato',
-			price: '1',
+			name: 'Diced Bacon',
 		},
 		{
-			name: 'Onion',
-			price: '1',
+			name: 'Sausage',
 		},
 		{
-			name: 'Green pepper',
-			price: '1',
+			name: 'Peameal',
 		},
 		{
-			name: 'Mushroom',
-			price: '1',
-		},
-		{
-			name: 'Kalamata olive',
-			price: '1',
-		},
-		{
-			name: 'Diced ham',
-			price: '2',
-		},
-		{
-			name: 'Extra cheese',
-			price: '2',
-		},
-		{
-			name: 'Diced sausage',
-			price: '2',
-		},
-		{
-			name: 'Baby spinach',
-			price: '1',
-		},
-		{
-			name: 'Diced bacon',
-			price: '2',
-		},
-		{
-			name: 'Feta cheese',
-			price: '2',
+			name: 'Extra Cheese',
 		},
 	]
 
@@ -58,14 +26,22 @@ export default class Omelettes extends Component {
 		return (
 			<div>
 				<div className='menu-name'>
-					<p>Omelettes</p>
+					<p>Bubba’s Famous Omelettes</p>
 				</div>
-				<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-					We start with three large Canadian Eggs, add a pile of shredded
-					cheddar cheese served with home fries and toast at 8.5
+				<h6 style={{ fontSize: 14, textAlign: 'center', padding: 5 }}>
+					<strong>
+						We start with three large Canadian Eggs, add a pile of shredded
+						cheddar cheese served with home fries and toast 9
+					</strong>
 				</h6>
-				<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-					<strong>Add-ons</strong>
+				<h6 style={{ fontSize: 14, textAlign: 'center', padding: 5 }}>
+					Choose any three your fresh toppings :
+					<strong style={{ textTransform: 'uppercase' }}>
+						Tomato, onion, green/red pepper, baby spinach
+					</strong>
+				</h6>
+				<h6 style={{ fontSize: 14, textAlign: 'center', padding: 5 }}>
+					<strong>Add any of the following for 2 each</strong>
 				</h6>
 				<div className='menu-wrapper'>{foodItems}</div>
 			</div>

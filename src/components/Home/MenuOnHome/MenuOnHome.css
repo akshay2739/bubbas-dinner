@@ -7,7 +7,30 @@
 
 .menu-type-wrapper {
 	width: 25%;
-	/* box-shadow: 2px 2px 2px 2px #f8c611; */
+	box-shadow: 2px 2px 2px 2px #f8c611;
+	margin-top: 15px;
+	background-color: black;
+}
+
+.menu-type-wrapper:hover {
+	scale: 1.1;
+}
+
+.carouser-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	font-weight: bolder;
+	font-family: cursive;
 }
 
 @media only screen and (max-width: 768px) {

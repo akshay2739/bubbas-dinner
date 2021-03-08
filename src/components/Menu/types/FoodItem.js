@@ -14,12 +14,14 @@ export default class FoodItem extends Component {
 						<h1 className='item-price'>{item.price}</h1>
 					)}
 				</div>
-				<div className='description'>
-					{item.desc}
-					<span style={{ marginLeft: 12 }}>
-						{item.desc && item.desc ? item.price : ''}
-					</span>
-				</div>
+				{item.desc ? (
+					<div className='description'>
+						{item.desc}
+						<span style={{ marginLeft: 12 }}>
+							{item.desc && item.desc ? item.price : ''}
+						</span>
+					</div>
+				) : null}
 			</div>
 		)
 	}

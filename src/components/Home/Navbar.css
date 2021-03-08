@@ -44,7 +44,7 @@
 	justify-content: space-between;
 	align-items: center;
 	background-color: white;
-	box-shadow: 2px 5px 4px black;
+	box-shadow: 0px 1px 10px #43e0b6;
 	padding-left: 10%;
 	padding-right: 10%;
 }
@@ -59,7 +59,7 @@
 }
 
 .logo-name p {
-	color: #ff0606;
+	color: #b00e13;
 	font-family: 'Yellowtail', cursive;
 	font-size: larger;
 	font-weight: 700;
@@ -78,12 +78,12 @@
 }
 
 .nav-link {
-	color: #ff0606;
+	color: #b00e13;
 	padding: 10px;
 }
 
 .ham-button {
-	color: #ff0606;
+	color: #b00e13;
 	font-size: 40px;
 }
 

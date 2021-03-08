@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Navbar.css'
+import logo from '../../assets/images/logo.png'
 
 export default class App extends React.Component {
 	constructor(props) {
@@ -39,18 +40,12 @@ export default class App extends React.Component {
 			<NavLink to='/' className='nav-link'>
 				Home
 			</NavLink>,
-			<NavLink to='/about' className='nav-link'>
-				About
-			</NavLink>,
 			<NavLink to='/menu' className='nav-link'>
 				Menu
 			</NavLink>,
 			<NavLink to='/gallary' className='nav-link'>
 				Gallery
 			</NavLink>,
-			// <NavLink to='/contact' className='nav-link'>
-			// 	Contact
-			// </NavLink>,
 		]
 		const menuItems = menu.map((val, index) => {
 			return (
@@ -71,13 +66,17 @@ export default class App extends React.Component {
 				<div style={styles.container} className='header'>
 					<div style={styles.logo} className='logo-name'>
 						<NavLink to='/' className='nav-link'>
-							<p>Bubba's Diner</p>
+							<img
+								style={{ width: 125, margin: 5, marginTop: 15 }}
+								src={logo}
+								alt="Bubba's Diner"
+							/>
 						</NavLink>
 					</div>
 					<MenuButton
 						open={this.state.menuOpen}
 						onClick={() => this.handleMenuClick()}
-						color='#ff0606'
+						color='#b00e13'
 					/>
 				</div>
 				<Menu open={this.state.menuOpen}>{menuItems}</Menu>
@@ -120,7 +119,7 @@ class MenuItem extends React.Component {
 			},
 			line: {
 				width: '90%',
-				height: '1px',
+				height: '2.5px',
 				background: 'white',
 				margin: '0 auto',
 				animation: '0.5s shrink forwards',
@@ -198,7 +197,7 @@ class MenuButton extends React.Component {
 		super(props)
 		this.state = {
 			open: this.props.open ? this.props.open : false,
-			color: this.props.color ? this.props.color : 'black',
+			color: this.props.color ? this.props.color : '#43e0b6',
 		}
 	}
 

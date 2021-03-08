@@ -15,6 +15,7 @@ const MenuHeader = () => {
 			>
 				Full Menu
 			</NavLink>
+
 			<NavLink
 				exact
 				to={url + '/breakfast'}
@@ -23,14 +24,34 @@ const MenuHeader = () => {
 			>
 				Breakfast
 			</NavLink>
+
 			<NavLink
 				exact
-				to={url + '/omelettes'}
+				to={url + '/lunchanddinner'}
 				activeClassName='selected-menu'
 				className='nav-link'
 			>
-				Omelettes
+				Lunch &amp; Dinner
 			</NavLink>
+
+			<NavLink
+				exact
+				to={url + '/dessertanddrinks'}
+				activeClassName='selected-menu'
+				className='nav-link'
+			>
+				Dessert &amp; Drinks
+			</NavLink>
+
+			{/* <NavLink
+				exact
+				to={url + '/breakfast'}
+				activeClassName='selected-menu'
+				className='nav-link'
+			>
+				Breakfast
+			</NavLink>
+
 			<NavLink
 				exact
 				to={url + '/sandwiches'}
@@ -70,7 +91,7 @@ const MenuHeader = () => {
 				activeClassName='selected-menu'
 			>
 				Add-ons
-			</NavLink>
+			</NavLink> */}
 		</div>
 	)
 }

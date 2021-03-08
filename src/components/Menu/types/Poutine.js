@@ -5,28 +5,22 @@ import '../Menu.css'
 export default class Poutine extends Component {
 	Poutine = [
 		{
-			name: 'Classic ',
+			name: 'Classic Poutine',
 			price: '8',
 			desc:
-				'A Canadian favorite golden fries smothered in Cheese Curds and gravy',
+				'A Canadian favourite – golden fries smothered in cheese curds and gravy',
 		},
 		{
-			name: 'Shawarma',
-			price: '11',
+			name: 'Fully Loaded Greek Fries',
+			price: '12',
 			desc:
-				'Our golden fries topped with cheese, seasoned shredded chicken and our inhouse Shawarma sauce that will make you go mmm…',
+				'Our golden fries topped with creamy tzatziki sauce, diced tomatoes, cucumber & onion, finished off with feta cheese & kalamata olives',
 		},
 		{
-			name: 'Butter Chicken',
+			name: 'Fully Loaded Butter Chicken Fries',
 			price: '12',
 			desc:
 				'Crispy fries topped with cheese and butter chicken that will make you come back again and again',
-		},
-		{
-			name: 'Greek',
-			price: '9',
-			desc:
-				'Our golden fries topped with creamy tzatziki sauce, diced tomatoes, cucumber & onion and finished off with feta cheese',
 		},
 	]
 
@@ -43,12 +37,6 @@ export default class Poutine extends Component {
 			name: '24 Wings',
 			price: '30',
 		},
-		{
-			name: '8 Butter Chicken Wings',
-			price: '15',
-			desc:
-				'Chicken wings sautéed in creamy butter chicken gravy (Additional 8 Wings for 10)',
-		},
 	]
 
 	render() {
@@ -63,23 +51,46 @@ export default class Poutine extends Component {
 		return (
 			<div>
 				<div className='menu-name'>
-					<p>Poutine</p>
-					<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-						(Add Chicken for $2)
+					<p>Poutine/Loaded Fries</p>
+					<h6 style={{ fontSize: 14, textAlign: 'center', padding: 5 }}>
+						(Add Chicken for 2)
 					</h6>
 				</div>
 				<div className='menu-wrapper'>{poutine}</div>
 
 				<div className='menu-name'>
-					<p>Bubba's Famous Jumbo Wings</p>
-					<h6 style={{ fontSize: 14, textAlign: 'center' }}>
-						Your choice of mild, medium, hot, honey garlic, or BBQ
+					<p>Bubba's Famous Wings</p>
+					<h6 style={{ fontSize: 14, textAlign: 'center', padding: 5 }}>
+						Your choice of mild, medium, hot, honey garlic, or BBQ sauce
 					</h6>
-					<h6 style={{ fontSize: 14, textAlign: 'center' }}>
+					<h6 style={{ fontSize: 14, textAlign: 'center', padding: 5 }}>
 						Add a side of fries 3
 					</h6>
 				</div>
 				<div className='menu-wrapper'>{ChikenWings}</div>
+
+				<div className='menu-name'>
+					<p>OH YES WE DID!</p>
+				</div>
+
+				<div className='menu-wrapper'>
+					<h6
+						className='special-item'
+						style={{
+							fontSize: 18,
+							textAlign: 'center',
+							marginTop: 15,
+							border: 'solid',
+							width: '100%',
+							padding: 5,
+							margin: 5,
+							transition: 'transform 30s linear',
+							transformOrigin: '50% 50%',
+						}}
+					>
+						<strong>8 Butter Chicken Wings</strong> 15
+					</h6>
+				</div>
 			</div>
 		)
 	}

@@ -14,29 +14,17 @@ export default class MenuType extends Component {
 						controls={false}
 						indicators={false}
 					>
-						<Carousel.Item>
-							<img
-								className='d-block w-100'
-								src={this.image}
-								alt='First slide'
-							/>
-						</Carousel.Item>
-
-						<Carousel.Item>
-							<img
-								className='d-block w-100'
-								src={this.image}
-								alt='Second slide'
-							/>
-						</Carousel.Item>
-
-						<Carousel.Item>
-							<img
-								className='d-block w-100'
-								src={this.image}
-								alt='Third slide'
-							/>
-						</Carousel.Item>
+						{this.image.map((item) => (
+							<Carousel.Item>
+								<img className='d-block w-100' src={item} alt='First slide' />
+								<div className='carouser-text'>
+									<p>{this.props.title}</p>
+									<span style={{ marginLeft: 5, color: 'red', fontSize: 35 }}>
+										<i class='fas fa-chevron-circle-down'></i>
+									</span>
+								</div>
+							</Carousel.Item>
+						))}
 					</Carousel>
 				</NavLink>
 			</div>

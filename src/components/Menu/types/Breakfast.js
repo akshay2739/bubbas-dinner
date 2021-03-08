@@ -5,33 +5,33 @@ import '../Menu.css'
 export default class Breakfast extends Component {
 	FoodItems = [
 		{
-			name: 'Full Breakfast',
+			name: 'Quick Breakfast',
 			price: '7',
 			desc: 'Two eggs done any way you like, home fries and toast',
 		},
 		{
 			name: 'The Bubba',
-			price: '14',
+			price: '15',
 			desc:
-				'Three strips of bacon, two sausages, and a slice of ham. Two pancakes, two eggs, home fries and toast. Substitute peameal for One protein 2',
+				'Three strips of thick bacon, two sausages, and a slice of our thick cut peameal, two pancakes, two eggs, home fries and toast',
 		},
 		{
-			name: 'Carnivore',
-			price: '9',
+			name: 'The Carnivore',
+			price: '10',
 			desc:
-				'Your choice of bacon, ham or sausage. Two eggs, home fries and toast',
+				'Your choice of bacon, peameal or sausage, two eggs, home fries and toast',
 		},
 		{
 			name: 'Smoothies',
 			price: '5.5',
 			desc:
-				'On the run? Try one of our fresh smoothies. Your choice of Mango/Pineapple or Strawberry/Banana. Add protein 1',
+				'On the run? Try one of our fresh smoothies. Your choice of Mango/Pineapple or Strawberry/Banana.',
 		},
 		{
 			name: 'Cakes or Toast',
 			price: '8',
 			desc:
-				'Your choice of a three-stack of fluffy pancakes or our delicious French toast. Served with a side of homefries',
+				'Your choice of a three-stack of fluffy pancakes or 2 of our delicious French toast. Served with a side of home fries',
 		},
 	]
 

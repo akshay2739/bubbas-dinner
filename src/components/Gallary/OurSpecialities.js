@@ -1,56 +1,86 @@
 import React, { Component } from 'react'
 import Card from './Card'
 import './Gallary.css'
-import image from '../../assets/images/img-02.jpg'
+// import image from '../../assets/images/img-02.jpg'
 import { Container } from 'react-bootstrap'
+
+import Pancake from '../../assets/images/Menu/Pancake.jpg'
+import ChilliPaneerRiceBowl from '../../assets/images/Menu/Chilli Paneer Rice Bowl.jpg'
+import TheBUBBA from '../../assets/images/Menu/The BUBBA.jpg'
+import FishAndChips from '../../assets/images/Menu/Fish & Chips.jpg'
+import ButterChickenRiceBowl from '../../assets/images/Menu/Butter Chicken Rice Bowl.jpg'
+import GreekSalad from '../../assets/images/Menu/Greek Salad.jpg'
+import LoadedGreekFries from '../../assets/images/Menu/Loaded Greek Fries.jpg'
+import Rasmalai from '../../assets/images/Menu/Rasmalai.jpg'
+import GulabJamun from '../../assets/images/Menu/Gulab Jamun.jpg'
+import PineappleMangoSmoothie from '../../assets/images/Menu/Pineapple & Mango Smoothie.jpg'
+import Omelets from '../../assets/images/Menu/Omelets.jpg'
+import FrenchToast from '../../assets/images/Menu/French Toast.jpg'
+import ChickenWings from '../../assets/images/Menu/Chicken Wings.jpg'
+import ButterChickenWings from '../../assets/images/Menu/Butter Chicken Wings.jpg'
+import Poutine from '../../assets/images/Menu/poutine.jpg'
 
 export default class OurSpecialities extends Component {
 	FoodImages = [
 		{
-			name: 'Speciality 1',
-
-			image: image,
+			name: 'Pancake',
+			image: Pancake,
 		},
 		{
-			name: 'Speciality 2',
-
-			image: image,
+			name: 'Chilli Paneer Rice Bowl',
+			image: ChilliPaneerRiceBowl,
 		},
 		{
-			name: 'Speciality 3',
-			image: image,
+			name: 'The BUBBA',
+			image: TheBUBBA,
 		},
 		{
-			name: 'Speciality 4',
-			image: image,
+			name: 'Fish & Chips',
+			image: FishAndChips,
 		},
 		{
-			name: 'Speciality 5',
-			image: image,
+			name: 'Butter Chicken Rice Bowl',
+			image: ButterChickenRiceBowl,
 		},
 		{
-			name: 'Speciality 6',
-			image: image,
+			name: 'Greek Salad',
+			image: GreekSalad,
 		},
 		{
-			name: 'Speciality 7',
-			image: image,
+			name: 'Loaded Greek Fries',
+			image: LoadedGreekFries,
 		},
 		{
-			name: 'Speciality 8',
-			image: image,
+			name: 'Rasmalai',
+			image: Rasmalai,
 		},
 		{
-			name: 'Speciality 9',
-			image: image,
+			name: 'Gulab Jamun',
+			image: GulabJamun,
 		},
 		{
-			name: 'Speciality 10',
-			image: image,
+			name: 'Pineapple & Mango Smoothie',
+			image: PineappleMangoSmoothie,
 		},
 		{
-			name: 'Speciality 11',
-			image: image,
+			name: 'Omelette',
+			image: Omelets,
+		},
+		{
+			name: 'French Toast',
+			image: FrenchToast,
+		},
+		{
+			name: 'Chicken Wings',
+			image: ChickenWings,
+		},
+		{
+			name: 'Butter Chicken Wings',
+			image: ButterChickenWings,
+		},
+		{
+			name: 'Poutine',
+			image: Poutine,
 		},
 	]
 
