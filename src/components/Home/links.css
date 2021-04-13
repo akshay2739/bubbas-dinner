@@ -1,0 +1,41 @@
+.uber-links {
+	margin-top: 25px;
+	display: flex;
+	background-color: #b00e13;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px;
+	padding: 25px 15%;
+}
+
+.uber-links a {
+	text-decoration: none;
+	/* padding: 25px; */
+	width: 120px;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.uber-links a img {
+	width: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+	.uber-links {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.uber-links a {
+		margin-top: 25px;
+	}
+
+	.uber-links a:last-child {
+		margin-bottom: 25px;
+	}
+}

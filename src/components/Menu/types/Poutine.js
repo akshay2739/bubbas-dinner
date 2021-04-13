@@ -51,7 +51,7 @@ export default class Poutine extends Component {
 		return (
 			<div>
 				<div className='menu-name'>
-					<p>Poutine/Loaded Fries</p>
+					<p>Poutine / Loaded Fries</p>
 					<h6 style={{ fontSize: 14, textAlign: 'center', padding: 5 }}>
 						(Add Chicken for 2)
 					</h6>

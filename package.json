@@ -1,5 +1,6 @@
 {
   "name": "bubbas-dinner",
+  "homepage": "http://www.bubbasdiner.ca/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

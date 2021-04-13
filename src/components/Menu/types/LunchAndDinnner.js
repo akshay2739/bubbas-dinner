@@ -1,6 +1,7 @@
 import React from 'react'
 import Poutine from './Poutine'
 import RiceBowls from './RiceBowls'
+import NewItems from './NewItems.js'
 import Salads from './Salads'
 
 const LunchAndDinnner = () => {
@@ -10,6 +11,7 @@ const LunchAndDinnner = () => {
 				<p style={{ fontSize: 45, marginTop: 15 }}>Lunch &amp; Dinner</p>
 			</div>
 			<Salads />
+			<NewItems />
 			<RiceBowls />
 			<Poutine />
 		</div>

@@ -58,9 +58,6 @@ export default class Salads extends Component {
 				<div className='menu-name'>
 					<p>Classic Salads</p>
 					<h6 style={{ fontSize: 14, textAlign: 'center', padding: 5 }}>
-						Dinner sized salads served with your choice of dressings
-					</h6>
-					<h6 style={{ fontSize: 14, textAlign: 'center', padding: 5 }}>
 						Add chicken to any salad 3
 					</h6>
 				</div>

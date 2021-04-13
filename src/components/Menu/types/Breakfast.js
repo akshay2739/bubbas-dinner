@@ -33,6 +33,12 @@ export default class Breakfast extends Component {
 			desc:
 				'Your choice of a three-stack of fluffy pancakes or 2 of our delicious French toast. Served with a side of home fries',
 		},
+		{
+			name: 'The Western Sandwich',
+			price: '11',
+			desc:
+				'Omelette, diced peameal, onion, green peppers and cheese in toasted Rye bread',
+		},
 	]
 
 	render() {
